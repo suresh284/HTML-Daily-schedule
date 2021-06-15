@@ -1,0 +1,19 @@
+h1{
+    font-size: 75px;
+    text-align: left;
+    padding: 50px;
+    margin: 50px;
+    border: 25px double green
+}
+
+p{
+    font-size: 30px;
+    margin-left : 150px;
+    color: red;
+}
+
+body{
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
