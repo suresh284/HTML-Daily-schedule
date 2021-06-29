@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+ 
+}
+body{
+  background-image: url(https://t4.ftcdn.net/jpg/03/90/08/41/360_F_390084175_OjGLvc32uWOhUPh56LBn5ZX9HQhjjNWx.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;  
+  box-sizing: border-box;
+}
+nav{
+  
+  text-align: center;
+  display: inline-flex;
+  height: 60px;
+  padding: 10px;
+  width: 100%; 
+}
+
+ul li{
+  display: inline-block;
+  padding-top: 25px;
+  padding-right: 20px;
+  text-align: left;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+label.logo{
+  color: white;
+  font-size: 40px;
+  padding-right: 150px;
+}
+
+ul li .info{
+  color:#000000;
+  text-align: left;
+}
+h1{
+  text-align: center;
+  font-family: alex brush;
+  font-size: 70px;
+  }
