@@ -19,7 +19,6 @@ nav{
   padding: 10px;
   width: 100%; 
 }
-
 ul li{
   display: inline-block;
   padding-top: 25px;
@@ -31,17 +30,48 @@ ul li{
 }
 
 label.logo{
-  color: white;
+  color: #ffffff;
   font-size: 40px;
   padding-right: 150px;
+  margin-right: 300px;
 }
-
 ul li .info{
-  color:#000000;
+  color:#ffffff;
   text-align: left;
+  float: right;
 }
 h1{
   text-align: center;
   font-family: alex brush;
-  font-size: 70px;
+  font-size: 90px;
   }
+  div .subcontent{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+  div .subcontent1{
+    font-family: alex brush;
+    text-align: center;
+    font-size: 30px;
+  }
+div .applink{
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: 500px;  
+}
+li .btn{
+  font-size: 15px;
+  border: solid black 2px;
+  background: black;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+}
+.btn a{
+  color: #ffffff;
+}
+div .footer{
+  text-align: center;
+  margin-top: 10px;
+}
