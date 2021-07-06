@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>JS- Windows alert & Comment- Example</title>
+    </head>
+    <body>
+        <h1>Windows Alert</h1>
+        <P>This element is used to create an alert with message, it stays on 
+            the screen until user dismiss it</P>
+        <h2 id=comment></h2>
+    </body>
+    <script>
+        window.alert("You have a message");
+    </script>
+    <script>
+        //single line comment: The text right next to the 2 slashs will be ignored, until the next line
+        document.getElementById("comment").innerHTML= "single line comment, The text right next "+
+        "to the two slashs will be ignored, until the next line"
+    </script>
+    <script>
+        /*
+        MultiLine comment
+        */
+       document.write("<h2>Multi Line comment, the comment will be written in between the (/* and */)</h2>")
+
+    </script>
+</html>
