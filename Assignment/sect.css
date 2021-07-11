@@ -1,13 +1,33 @@
 .eligibility{
-    width:100%
+    width:100%;
     height:80vh;
 }
 .eligibility-criteria{
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 40%);
     grid-template-rows: repeat(3, auto);
     grid-gap: 50px;
-    padding: 25px;
-    background-color: #fffaff;
+    padding: 35px;
+    padding-left: 95px;
 }
-
+#eligible{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    
+}
+#eligible1{
+    border: solid black 1px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#eligible-heading{
+    font-size: 50px;
+    font-weight: 200px;
+    color: blue;
+}
+#eligibility-content{
+    font-size: 18px;
+    font-weight: 500px;
+    color: #8a2b88;
+}
