@@ -5,58 +5,58 @@
   }
   /*-- Header section --*/
   .header{
-      min-height: 96vh;
-      width: 100%;
-      background-image: url(./images/background.jpg);
-      background-position: relative;
-      background-size:cover;
-    }
+    min-height: 96vh;
+    width: 100%;
+    background-image: url(./images/background.jpg);
+    background-position: relative;
+    background-size:cover;
+  }
 img{
-    float:left;
-    margin-left:8%;
-    margin-right:10%;
-    padding:20px;
+  float:left;
+  margin-left:8%;
+  margin-right:10%;
+  padding:20px;
 }
 .nav-bar{
-    background-color: #ffff;
-    height:100px;
-    width:100%;
-    position:fixed;
-    top:0%;
+  background-color: #ffff;
+  height:100px;
+  width:100%;
+  position:fixed;
+  top:0%;
 }
-ul,li{
-    display:inline-block;  
-    padding: 5px;
-    margin: 10px;
+.nav-menu ul li{
+  display:inline-block;  
+  padding: 5px;
+  margin: 10px;
 }
-li, a{
-    text-align:center;
-    padding-top:10px;
-    font-size: 16px;
-    font-weight: 780;
-    color: #353354;
-    text-decoration: none;
+.nav-menu a{
+  text-align:center;
+  padding-top:10px;
+  font-size: 16px;
+  font-weight: 780;
+  color: #353354;
+  text-decoration: none;
 }
-.btn{
-    text-align:right;
-    background-color: #042f66;
-    margin-left: 80px;
-    padding-right:30px;
-    padding-left:30px;
-    padding-top:13px;
-    padding-bottom:15px;
-    margin-top:5px;
-    border-radius: 50px;
-    font-size:17px;
-    color: #ffff;
-    font-weight: 500;
+.nav-menu .btn{
+  text-align:right;
+  background-color: #042f66;
+  margin-left: 80px;
+  padding-right:30px;
+  padding-left:30px;
+  padding-top:13px;
+  padding-bottom:15px;
+  margin-top:5px;
+  border-radius: 50px;
+  font-size:17px;
+  color: #ffff;
+  font-weight: 500; 
 }
 a:hover{
-    transition: 0.3s;
-    color: #145694;
+  transition: 0.3s;
+  color: #145694;
 }
 a.thing:hover{
-    color: #ffff;
+  color: #ffff;
 }
 /*-- Header section close --*/
 
@@ -113,7 +113,6 @@ a.thing:hover{
 }
 .about-passage{
     margin-left: 20px;
-    /*--margin-top andd padding top not working--*/
     padding-top: 35px;
     padding-right: 150px;
     color: blue;
@@ -130,10 +129,12 @@ a.thing:hover{
 }
 .point1{
     text-align: left;
-    font-weight: 70px;
+    font-weight: 50px;
     color: #blue;
     padding: 10px;
+    font-size: 20px
 }
-a{
-    color:#696969
+.point1 a{
+    color:#696969;
+    font-size: 18px;
 }

@@ -1,37 +1,57 @@
-.about-fascoon{
-    height: 100vh;
-    width: 100%;  
-    display: inline; 
+.header{
+    min-height: 96vh;
+    width: 100%;
+    background-image: url(./images/background.jpg);
+    background-position: relative;
+    background-size:cover;
+  }
+img{
+  float:left;
+  margin-left:8%;
+  margin-right:10%;
+  padding:20px;
 }
-.about-fascoon-content{
-    column-count: 2;
-    margin-top: 20px;
-    padding-top: 50px;
-    float: left;
+.nav-bar{
+  background-color: #ffff;
+  height:100px;
+  width:100%;
+  position:fixed;
+  top:0%;
 }
-.about-passage{
-    margin-left: 20px;
-    /*--margin-top andd padding top not working--*/
-    padding-top: 35px;
-    padding-right: 150px;
-    color: blue;
-    letter-spacing: 1px;
-    float: right;
+.nav-menu ul li{
+  display:inline-block;  
+  padding: 5px;
+  margin: 10px;
 }
-.para1{
-    padding-top: 20px;
-    margin-right: 25px;
-    font-size: 20px;
-    letter-spacing: 1px;
-    color: #696969;
-    font-weight: 50px;
+.nav-menu a{
+  text-align:center;
+  padding-top:10px;
+  font-size: 16px;
+  font-weight: 780;
+  color: #353354;
+  text-decoration: none;
 }
-.point1{
-    text-align: left;
-    font-weight: 70px;
-    color: #blue;
-    padding: 10px;
+.nav-menu .btn{
+  text-align:right;
+  background-color: #042f66;
+  margin-left: 80px;
+  padding-right:30px;
+  padding-left:30px;
+  padding-top:13px;
+  padding-bottom:15px;
+  margin-top:5px;
+  border-radius: 50px;
+  font-size:17px;
+  color: #ffff;
+  font-weight: 500; 
 }
-a{
-    color:#696969
+a:hover{
+  transition: 0.3s;
+  color: #145694;
 }
+a.thing:hover{
+  color: #ffff;
+}
+
+
+
