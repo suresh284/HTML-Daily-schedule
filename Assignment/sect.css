@@ -1,33 +1,54 @@
-.eligibility{
-    width:100%;
-    height:80vh;
+#payment-types{
+    color: #0e3aa1;
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-left: 50px;
 }
-.eligibility-criteria{
+.two-types{
     display: grid;
-    grid-template-columns: repeat(2, 40%);
-    grid-template-rows: repeat(3, auto);
-    grid-gap: 50px;
-    padding: 35px;
-    padding-left: 95px;
+    grid-template-columns: repeat(2, 45%);
 }
-#eligible{
-    grid-column: 1/3;
-    grid-row: 1/2;
-    
+.type1{
+    margin: 30px;
+    margin-left: 50px;
 }
-#eligible1{
-    border: solid black 1px;
+.type2{
+    margin: 30px;
+}
+.type1 p, .type2 p{
+    border-bottom: solid black 1px;
+    padding-bottom: 15px;
     padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 30px;
 }
-#eligible-heading{
-    font-size: 50px;
-    font-weight: 200px;
-    color: blue;
+.offer-btn{
+    background-color: #4ec94e;
+    color: #ffff;
+    border: solid black 1px;
+    padding: 10px;
+    margin-left: 230px;
+    margin-bottom: -55px;
 }
-#eligibility-content{
-    font-size: 18px;
-    font-weight: 500px;
-    color: #8a2b88;
+.types-heading{
+    font-size: 20px;
+    background-color: #2796f0;
+    color: #ffff;
+    padding-top: 10px;
+    margin-top: -1px;
+}
+.fee-discription{
+    font-size: 20px;
+}
+del{
+    color: red;
+}
+.offer{
+    color: #112f75;
+    font-size: 25px;
+    font-weight: 500;
+}
+.bracket-text{
+    font-size: 15px;
+    font-family: inherit;
+    letter-spacing: .5px;
 }
