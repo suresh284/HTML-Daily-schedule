@@ -11,7 +11,7 @@
     background-position: relative;
     background-size:cover;
   }
-img{
+.logo{
   float:left;
   margin-left:8%;
   margin-right:10%;
@@ -60,6 +60,57 @@ a:hover{
 }
 a.thing:hover{
   color: #ffff;
+}
+.opening1{
+  margin-left:200px;
+  padding-top:250px;
+  position:static;
+}
+.opening2{
+  font-size:70px;
+  font-weight:800;
+  color:rgba(4, 22, 71, 0.904);
+}
+.opening3{
+  font-weight: 650;
+}
+.opening4{
+  margin-top:25px;
+  font-size: 25px;
+  font-weight: 450;
+  background-color:white;
+  width:75%;
+  padding:10px;
+  border-radius:5px;
+}
+#opening4{
+  color:rgb(70, 195, 245);
+  font-weight: 800;
+  font-size: 30px;
+}
+.list, .opening6{
+  list-style: none;
+  display: inline;
+  margin-right:15px;
+}
+.opening5 a{
+  padding-right:30px;
+  padding-left:30px;
+  padding-top:13px;
+  padding-bottom:15px;
+  display: inline;
+  font-size:16px;
+  color:white;
+  font-weight: 500;
+  background-color:rgba(3, 33, 73, 0.973);
+  border-radius: 60px;
+}
+a.opening5:hover{
+  color:white;
+}
+.opening6 a{
+  color:white;
+  display: inline;
 }
 /*-- Header section close --*/
 
@@ -168,6 +219,9 @@ a.thing:hover{
   padding: 25px;
   background-color: #fffaff;
 }
+.why-fascoon-img{
+  margin: 20px 0px 10px 35px;
+}
 #why-fascoon-heading{
   color: blue;
   font-size: 35px;
@@ -179,12 +233,11 @@ a.thing:hover{
   color:blue;
   font-weight: 200px;
   text-align: left;
-  margin-top: 130px;
   padding-left:35px;
   margin-left:0;
 }
 .why-fascoon-explination{
-  padding: 35px;
+  padding: 15px 0px 0px 35px;
   text-align: left;
 }
 #rason1{
@@ -246,7 +299,7 @@ a.thing:hover{
   font-size: 20px;
   background-color: rgb(235, 55, 55);
   color: #ffff;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 /*--Why choose fascoon close --*/
 /*--Who can apply open--*/
@@ -278,6 +331,9 @@ a.thing:hover{
   font-weight: 0px;
   color:#5e45bb;
   letter-spacing: 1px;
+}
+.eligibility-img{
+  padding: 0px 0px 10px 50px; 
 }
 #eligibility-content{
   font-size: 18px;
@@ -444,11 +500,8 @@ del{
   display: grid;
   background-color: #f6f8f8;
   grid-template-columns: repeat(3, auto);
-  margin:45px 50px 35px 90px;
-  column-gap: 15px;
-}
-.blog-img{
-  margin-left: -45px;
+  margin:45px 150px 35px 90px;
+ 
 }
 .blog-content1{
   margin: 10px 10px 10px 10px;
@@ -472,10 +525,90 @@ del{
 }
 .read-content{
   font-size: 20px;
-  margin-top: -35px;
+  margin-top: 15px;
   padding-bottom: 10px;
 }
 .read-content:hover{
   color:#0a369d;
 }
+
 /*--Blog section close*/
+/*--We teach section open--*/
+.v-teach{
+  margin: 75px 0px 25px 0px;
+}
+.v-teach-heading{
+  color: #5e45bb;
+  margin: 0px 0px 35px 100px;
+  font-size: 25px;
+}
+.v-teach-images{
+  padding: 0px 50px 0px 100px;
+}
+#v-teach-images{
+  padding: 7px 35px 35px 60px;
+}
+/*--We teach section close--*/
+/*--Footer open--*/
+.footer{
+  background-image: url("images/footer.png");    
+  width: 100%;
+  background-position: center;
+  height: 100vh;
+}
+.footer1{
+  display: flex;
+  background-color: #082465;
+  text-align: center;
+  margin: 20px 75px 35px 75px;
+  padding: 5px 15px 5px 50px;
+  border-radius: 100px;
+}
+.ready{
+  color: #ffff;
+  font-size: 40px;
+  font-weight: 300px;
+  padding: 50px 0px 0px 35px;
+}
+.join1{
+  text-align: left;
+  margin:50px 0px 50px 140px;
+  color:#ffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 18px 15px 18px;
+  border-radius: 100px;
+  background-color: #ffa90a;
+}
+.join1:hover{
+  background-color: #383838;
+}
+.join2{
+  text-align: left;
+  margin:50px 0px 50px 15px;
+  color: #ffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 18px 15px 18px;
+  border-radius: 100px;
+  background-color: #7119b9;
+}
+.join2:hover{
+  background-color: #383838;
+}
+.footer2{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+}
+.social-media-list{
+  list-style-type: none;
+}
+#footer2-heading{
+  margin-bottom: 25px;
+}
+#opt1{
+  padding: 5px 0px 5px 0px;
+}
+/*--Footer close--*/
