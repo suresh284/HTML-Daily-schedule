@@ -5,7 +5,7 @@
   }
   /*-- Header section --*/
   .header{
-    min-height: 96vh;
+    min-height:120vh;
     width: 100%;
     background-image: url(./images/background.jpg);
     background-position: relative;
@@ -52,29 +52,29 @@
   border-radius: 50px;
   font-size:17px;
   color: #ffff;
-  font-weight: 500; 
+  font-weight: 500;
 }
-a:hover{
+.nav-menu-options:hover{
   transition: 0.3s;
   color: #145694;
 }
-a.thing:hover{
-  color: #ffff;
+.btn:hover{
+  box-shadow:0px 0px 5px 3px red;
 }
-.opening1{
+.introduction{
   margin-left:200px;
   padding-top:250px;
   position:static;
 }
-.opening2{
+.intro-heading{
   font-size:70px;
   font-weight:800;
   color:rgba(4, 22, 71, 0.904);
 }
-.opening3{
+.intro-sub{
   font-weight: 650;
 }
-.opening4{
+.intro-passage{
   margin-top:25px;
   font-size: 25px;
   font-weight: 450;
@@ -83,17 +83,17 @@ a.thing:hover{
   padding:10px;
   border-radius:5px;
 }
-#opening4{
+#intro-passage{
   color:rgb(70, 195, 245);
   font-weight: 800;
   font-size: 30px;
 }
-.list, .opening6{
+.list, .intro-contact1{
   list-style: none;
   display: inline;
   margin-right:15px;
 }
-.opening5 a{
+.intro-contact a{
   padding-right:30px;
   padding-left:30px;
   padding-top:13px;
@@ -105,12 +105,15 @@ a.thing:hover{
   background-color:rgba(3, 33, 73, 0.973);
   border-radius: 60px;
 }
-a.opening5:hover{
+.intro-contact a{
+  text-decoration: none;
   color:white;
 }
-.opening6 a{
+.intro-contact1 a{
   color:white;
   display: inline;
+  text-decoration: none;
+  margin-bottom: 50px;
 }
 /*-- Header section close --*/
 
@@ -610,5 +613,26 @@ del{
 }
 #opt1{
   padding: 5px 0px 5px 0px;
+  color:#383838;
+}
+.bottom-opt{
+  list-style-type: none;
+  border-top: 0.5px ridge #dddcdc;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+#bottom-opt .copy-rights{
+  padding-right: 400px;
+}
+#bottom-opt{
+  display: inline;
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+#bottom-opt a{
+  color: #383838;
+  padding: 25px;
+  text-decoration: none;
 }
 /*--Footer close--*/
