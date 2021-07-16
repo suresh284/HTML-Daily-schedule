@@ -1,54 +1,77 @@
-.column {
-    float: left;
-    width: 50%;
+.header{
+    min-height:120vh;
+    width: 100%;
+    background-image: url(./images/background.jpg);
+    background-position: relative;
+    background-size:cover;
 }
-.rev-img1{
-    float:right;
-    padding:0;
-    margin:10px 40px 5px 20px;
-    border-radius: 100px;
+.logo{
+  float:left;
+  margin-left:8%;
+  margin-right:10%;
+  padding:20px;
 }
-.rev-img2{
-    float:right;
-    padding:0;
-    margin:110px 100px 0px 0px;
-    border-radius: 100px;
+.nav-bar{
+  background-color: #ffff;
+  height:100px;
+  width:100%;
+  position:fixed;
+  top:0%;
 }
-.rev-img3{
-    float:right;
-    padding:0;
-    margin:30px 120px 55px 10px;
-    border-radius: 100%;
+#nav-menu-list{
+  display:inline-block;  
+  padding: 5px;
+  margin: 10px;
+  position: relative;
 }
-.rev-img4{
-    float:left;
-    padding:0;
-    margin:50px 60px 5px 100px;
-    border-radius: 100px;
+#sub-menu-list{
+    display: none;
+    position: absolute;
+    margin-top: 15px;
+    padding-right: 55px;
+    padding-left: 10px;
+    list-style-type: none;
+    background-color: black;
 }
-.rev-img5{
-    float:right;
-    padding:0;
-    border-radius: 100px;
-    margin:0px 60px 5px 100px;
+#sub-menu-list1{
+    padding: 10px 0px;
+    width: 100px;
 }
-#double-quote{
-    font-size: 50px;
-    padding-left: 250px;
-    color: #000fff;
+#sub-menu-list1 a{
+    color: white;
 }
-.review-cmt{
-    padding: 0px 15px 0px 15px;
-    line-height: 20px;
+#nav-menu-list:hover #sub-menu-list{
+    display: block;
 }
-.reviewer{
-    color:#0000ff;
+.nav-menu{
+  margin-top: 18px;
 }
-#select-reviews{
-    display: inline-flex;
-    margin-left:200px;
+.nav-menu a{
+  text-align:center;
+  padding-top:10px;
+  font-size: 16px;
+  font-weight: 780;
+  color: #353354;
+  text-decoration: none;
 }
-.review-selector{
-    padding:5px;
-    color:blue;
+.nav-menu .btn{
+  text-align:right;
+  background-color: #042f66;
+  margin-left: 80px;
+  padding-right:30px;
+  padding-left:30px;
+  padding-top:13px;
+  padding-bottom:15px;
+  margin-top:15px;
+  border-radius: 50px;
+  font-size:17px;
+  color: #ffff;
+  font-weight: 500;
+}
+.nav-menu-options:hover{
+  transition: 0.3s;
+  color: #145694;
+}
+.btn:hover{
+  box-shadow:0px 0px 5px 3px #022642;
 }
