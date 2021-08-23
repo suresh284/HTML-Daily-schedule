@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar-menu{
+    margin: 0 0 0 35px;
+}
+.check{
+    display: none;
+}
+#toggle{
+    display: none;
+}
+
+@media(max-width: 768px){
+    .check{
+        display: block;
+        cursor: pointer;
+    }
+    .menu-options{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu-options a{
+        display: block;
+    }
+    #toggle:checked + .menu-options{
+        display: block;
+    }
+}
