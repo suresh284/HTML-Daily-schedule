@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.input-container{
+  text-align: center;
+  position: relative;
+  
+  justify-content: center;
+ 
+  top: 40px;
+}
+
+.output-container{
+  text-align: center;
+  position:relative;
+  
+  align-content: center;
+  text-align: center;
+  top: 75PX;
+  
+}

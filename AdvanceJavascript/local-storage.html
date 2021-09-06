@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Local storage example</title>
+    </head>
+    <body>
+        <script>
+            let firstname;
+            let lastname;
+
+            localStorage.setItem("firstname", "Rakesh");
+            localStorage.setItem("lastname", "Kumar");
+
+            firstname = localStorage.getItem("firstname"); 
+            lastname = localStorage.getItem("lastname");
+
+            localStorage.removeItem("lastname");
+
+            document.write(firstname);
+            document.write("<br/>");
+            document.write(lastname)
+
+        </script>
+         
+    </body>
+</html>
