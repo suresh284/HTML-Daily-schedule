@@ -48,11 +48,6 @@ h1{
     margin:10% 0% 3% 28%;
     position:absolute;
 }
-.item{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 .item_input{
     font-size:22px;
     font-weight: 500;
@@ -63,6 +58,11 @@ h1{
     border-radius: 10px;
     outline: none;
     color:#ffff;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .editButton{
     width:10%;
