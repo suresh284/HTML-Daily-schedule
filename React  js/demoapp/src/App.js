@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import AppHeader from './components/AppHeader';
+import AppBody from './components/AppBody';
+import AppFooter from './components/AppFooter';
+
 
 function App() {
   return (
     <div className="App">
      <AppHeader />
+     <AppBody />
+     <AppFooter />
     </div>
   );
 }
