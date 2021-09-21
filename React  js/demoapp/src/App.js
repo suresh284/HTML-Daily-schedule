@@ -6,9 +6,20 @@ import AppFooter from './components/AppFooter';
 
 
 function App() {
+
+  const user = {
+
+    'username' : 'Rakesh',
+    'location' : 'Hyd'
+
+
+
+  }
+
+
   return (
     <div className="App">
-     <AppHeader />
+     <AppHeader username={user.username} location={user.location}/>
      <AppBody />
      <AppFooter />
     </div>
