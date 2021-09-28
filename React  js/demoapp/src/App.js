@@ -3,6 +3,9 @@ import './App.css';
 import AppHeader from './components/AppHeader';
 import AppBody from './components/AppBody';
 import AppFooter from './components/AppFooter';
+import Router from './Router';
+
+
 
 
 function App() {
@@ -21,7 +24,8 @@ function App() {
     <div className="App">
      <AppHeader username={user.username} location={user.location}/>
      <AppBody />
-     <AppFooter />
+     <AppFooter />  
+     <Router />   
     </div>
   );
 }
