@@ -5,10 +5,10 @@ import Router from './Router';
 
 function App() {
   return (
-
-  
+    <div>
+      <h1>Welcome to ReactApp</h1>
       <Router />
-    
+    </div>
   );
 }
 
