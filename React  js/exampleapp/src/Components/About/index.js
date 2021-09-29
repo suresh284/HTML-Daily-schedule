@@ -6,7 +6,7 @@ export default function About(){
 
         <h2> About US</h2>
         
-    )
+    );
 
 
 
