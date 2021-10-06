@@ -1,0 +1,16 @@
+.Nav ul{
+    list-style: none;
+    background-color: greenyellow;
+    width: 100%;
+}
+.Nav li{
+  
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px;
+}
+.Link{
+
+    color: red;
+    text-decoration: none;
+}
