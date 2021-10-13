@@ -1,12 +1,40 @@
-import React from 'react';
+import React, { Component } from "react";
+import axios from "axios";
+export default class UserList extends Component{
 
-export default function userList(){
+    state ={
+        user : []
+    }
+    handleInputChange = (e) => {
 
-    return(
+        const user = e.target.value
+        this.setState({
+            user : user
 
-        <h1> Users list</h1>
-    )
+        })
+    }
+    saveUser = (e) => {
+        
+        e.preventDefault();
+        const user = this.state.user
+        axios.post('http://localhost:3004/Users/',{user})
+        .then (res => {
+            console.log(res.data);
+        })
+    }
 
+    render(){
 
+        return(
 
+            <div>
+            <input type='text' name='user' onChange={this.handleInputChange} placeholder='enter usernaame' />
+            <button onClick={this.saveUser}>Submit</button>
+            </div>
+        )
+
+    }
+
+   
+    
 }
