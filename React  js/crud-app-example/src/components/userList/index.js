@@ -7,17 +7,17 @@ export default class UserList extends Component{
     }
     handleInputChange = (e) => {
 
-        const user = e.target.value
+        const name = e.target.value
         this.setState({
-            user : user
+            user : name
 
         })
     }
     saveUser = (e) => {
         
         e.preventDefault();
-        const user = this.state.user
-        axios.post('http://localhost:3004/Users/',{user})
+        const name = this.state.user
+        axios.post('http://localhost:3004/Users/',{name})
         .then (res => {
             console.log(res.data);
         })

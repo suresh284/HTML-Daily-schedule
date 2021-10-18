@@ -21,6 +21,16 @@ export default class Members extends Component{
 
     }
 
+    deleteUser = (e) => {
+        e.preventdefault();
+        const id = e.target.id;
+        axios.delete('http://localhost:3004/Users/'+id)
+        .then(res => {
+            console.log(res.data)
+        })
+
+    }
+
 
     render(){
 
@@ -29,7 +39,10 @@ export default class Members extends Component{
             <div>
             <h1> Members </h1>
             {this.state.Users.map((user) => (
-            <li id={user.id}>{user.name}</li>
+                <div>
+                    <li id={user.id}>{user.name}</li>
+                    <button id={user.id} onClick={this.deleteUser}> Delete</button>
+                </div>
             ))}
             </div>
         )
