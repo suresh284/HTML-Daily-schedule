@@ -1,0 +1,11 @@
+.editinfo{
+    margin: 15px;
+    font-size: larger;
+}
+.btn{
+    font-size: large;
+
+}
+.btn:hover{
+    background-color: lightcyan;
+}

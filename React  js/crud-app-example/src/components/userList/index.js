@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import './index.css'
 export default class UserList extends Component{
 
     state ={
@@ -20,6 +21,9 @@ export default class UserList extends Component{
         axios.post('http://localhost:3004/Users/',{name})
         .then (res => {
             console.log(res.data);
+            setTimeout(()=>{
+                window.location.replace('/')
+            },500)
         })
     }
 
@@ -27,9 +31,9 @@ export default class UserList extends Component{
 
         return(
 
-            <div>
+            <div className='createuser'>
             <input type='text' name='user' onChange={this.handleInputChange} placeholder='enter usernaame' />
-            <button onClick={this.saveUser}>Submit</button>
+            <button className='btn' onClick={this.saveUser}>Submit</button>
             </div>
         )
 

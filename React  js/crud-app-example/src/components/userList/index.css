@@ -1,0 +1,12 @@
+.createuser{
+
+    margin-top: 50px;
+}
+.btn{
+
+    margin-left: 10px;
+}
+.btn:hover{
+
+    background-color: lightsalmon;
+}

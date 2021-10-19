@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
+import './index.css'
 
 export default class Members extends Component{
 
@@ -22,11 +24,14 @@ export default class Members extends Component{
     }
 
     deleteUser = (e) => {
-        e.preventdefault();
+        e.preventDefault();
         const id = e.target.id;
         axios.delete('http://localhost:3004/Users/'+id)
         .then(res => {
-            console.log(res.data)
+            console.log(res.data);
+            setTimeout(()=>{
+                window.location.reload('/')
+            },500)
         })
 
     }
@@ -41,7 +46,8 @@ export default class Members extends Component{
             {this.state.Users.map((user) => (
                 <div>
                     <li id={user.id}>{user.name}</li>
-                    <button id={user.id} onClick={this.deleteUser}> Delete</button>
+                    <Link to={'/edituser/'+user.id+'/'+user.name} className='btn'> Edit </Link>
+                    <button id={user.id} onClick={this.deleteUser} className='btn'> Delete</button>
                 </div>
             ))}
             </div>

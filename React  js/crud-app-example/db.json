@@ -1,16 +1,12 @@
 {
   "Users": [
     {
-      "name": "Mallesh",
+      "id": 2,
+      "name": "somesh"
+    },
+    {
+      "name": "mallesh",
       "id": 4
-    },
-    {
-      "name": "Ramesh",
-      "id": 5
-    },
-    {
-      "name": "Lokesh",
-      "id": 6
     }
   ]
 }

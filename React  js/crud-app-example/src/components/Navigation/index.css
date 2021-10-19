@@ -1,0 +1,18 @@
+.Navigation{
+    text-decoration: none;
+    background-color: lightblue;
+}
+.navlinks{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+    
+}
