@@ -10,7 +10,7 @@ module.exports = mongoose =>{
             timestamps:true
         }
     );
-    //conver _id to id
+    //convert _id to id
 
     schema.method('toJson',function(){
         const {__v,_id,...object } =this.toObject()

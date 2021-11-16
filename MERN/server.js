@@ -3,16 +3,19 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const app = express()
 
-app.use(bodyParser.urlencoded({
-
-    extended:true
-}))
+app.use(bodyParser.urlencoded({extended:true}))
+//app.use(express.urlencoded({extended:true}))
+//app.use(express.json())
 app.use(bodyParser.json())
 var corsOptions={
     
     origin:true
 }
 app.use (cors(corsOptions));
+
+app.post('/api/news',(req,res)=>{
+    
+})
 
 app.get('/',(req,res)=>{
     res.send('Hello World')
@@ -33,7 +36,7 @@ db.mongoose.connect(db.url,{
 })
 
 //routes
-//require('../MERN/Routes/news.route')(app)
+require('../MERN/Routes/news.route')(app)
 
 const Port = 5000
 
