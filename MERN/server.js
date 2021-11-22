@@ -4,13 +4,9 @@ const cors = require('cors')
 const app = express()
 
 app.use(bodyParser.urlencoded({extended:true}))
-//app.use(express.urlencoded({extended:true}))
-//app.use(express.json())
 app.use(bodyParser.json())
-var corsOptions={
-    
-    origin:true
-}
+
+var corsOptions={origin:true}
 app.use (cors(corsOptions));
 
 app.post('/api/news',(req,res)=>{
