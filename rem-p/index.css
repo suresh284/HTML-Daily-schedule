@@ -1,0 +1,12 @@
+.container{
+    display: inline-flex;
+    margin: 75px 0px 0px 150px;
+}
+ul{
+    display: flex;
+    column-gap: 25px;
+    padding: 25px;
+}
+li{
+list-style-type: none;
+}
