@@ -3,6 +3,14 @@ var input = document.querySelector(".input");
 var date = document.querySelector(".date");
 const Container = document.querySelector(".display_container");
 
+// -------
+
+const second = 1000;
+const minute = second * 60;
+const hour = minute * 60;
+const day = hour * 24;
+
+
 class addData{
 
     constructor(remainder){
@@ -15,22 +23,12 @@ class addData{
         let h2 = document.createElement("h2");
         h2.classList.add("name");
         h2.value = remainder;
-        h2.innerText = remainder;
-
-        // // let span = document.createElement("span")
-        // // span.classList.add("Span");
-        // // span.value=remainder;
-        // //  span.innerText=remainder;
-
-        // let input = document.createElement("input");
-        // input.value= remainder;
-        // input.disabled=true;
-
+        h2.innerText = input.value;
 
         let h5 = document.createElement("h5");
         h5.classList.add("countDown");
-        h5.innerText = remainder;
-
+        h5.innerText = date.value;
+        
         let datadiv = document.createElement("div");
         datadiv.classList.add("add_data");
 
@@ -46,9 +44,6 @@ class addData{
         datadiv.appendChild(wishButton);
 
 
-
-
-
     }
 
     wish(){
@@ -56,6 +51,12 @@ class addData{
     }
 }
 
+class count extends addData{
+
+    constructor(){
+        
+    }
+}
 
 function addEvent(){
     
@@ -67,10 +68,6 @@ function addEvent(){
 }
 add.addEventListener('click', addEvent);
 
-// function AddEvent(){
+function countDown(){
 
-//     if(input.value !== ''){
-//         new addData (input.value)
-//         input.value="";
-//     }
-// }
+}
